@@ -356,7 +356,7 @@ class AppStore extends Component {
           <ul className="tabs-list">
             {tabsList.map(eachTab => (
               <TabItem
-                key={eachTab.id}
+                key={eachTab.tabId}
                 tabDetails={eachTab}
                 setActiveTabId={this.setActiveTabId}
                 isActive={activeTabId === eachTab.id}
